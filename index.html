@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ネタバレ必至！公開御礼 全国舞台挨拶ツアー｜映画 えんとつ町のプペル〜約束の時計台〜</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+
+/* ============================================================
+   TOKENS
+   ============================================================ */
+:root {
+  --gold:        #B8860B;   /* muted dark goldenrod */
+  --gold-light:  #F5E9C0;   /* very pale gold */
+  --gold-bg:     #FFFDF4;   /* almost-white warm tint */
+  --gold-mid:    #D4A520;   /* medium gold for accents */
+  --black:       #1C1408;
+  --black-soft:  #3A2C14;
+  --gray:        #6A5A3A;
+  --border:      #E4D5A0;
+  --card-bg:     #FFFFFF;
+  --page-bg:     #FFFFFF;
+  --tag-bg:      #F7EEC8;
+  --tag-text:    #7A5C00;
+}
+
+/* ============================================================
+   RESET & BASE
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--page-bg);
+  color: var(--black);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+.site-header {
+  background: var(--black);
+  color: var(--gold-light);
+  padding: 40px 24px 48px;
+  text-align: center;
+  border-bottom: 4px solid var(--gold);
+}
+
+.header-eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  color: var(--gold);
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.header-movie {
+  font-family: 'Noto Serif JP', serif;
+  font-size: clamp(12px, 2vw, 15px);
+  color: rgba(245,233,192,0.6);
+  letter-spacing: 0.12em;
+  margin-bottom: 10px;
+}
+
+.header-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: clamp(24px, 5vw, 44px);
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  line-height: 1.25;
+  color: var(--gold-light);
+  margin-bottom: 6px;
+}
+
+.header-sub {
+  font-size: clamp(14px, 2.5vw, 20px);
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.1em;
+  margin-bottom: 24px;
+}
+
+.header-performer {
+  display: inline-block;
+  border: 1px solid rgba(245,233,192,0.25);
+  padding: 12px 28px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.header-performer-label {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: rgba(245,233,192,0.5);
+  margin-bottom: 4px;
+}
+
+.header-performer-name {
+  font-family: 'Noto Serif JP', serif;
+  font-size: clamp(15px, 2.5vw, 18px);
+  font-weight: 700;
+  color: var(--gold-light);
+  letter-spacing: 0.1em;
+}
+
+.header-performer-role {
+  font-size: 11px;
+  color: rgba(245,233,192,0.45);
+  margin-top: 2px;
+  letter-spacing: 0.08em;
+}
+
+.header-note {
+  font-size: 12px;
+  color: rgba(245,233,192,0.4);
+  letter-spacing: 0.05em;
+  line-height: 1.9;
+}
+
+/* ============================================================
+   STICKY NAV
+   ============================================================ */
+.date-nav {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: var(--black);
+  border-bottom: 2px solid var(--gold);
+  padding: 0 16px;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.date-nav::-webkit-scrollbar { display: none; }
+
+.date-nav-inner {
+  display: inline-flex;
+  align-items: stretch;
+  gap: 0;
+  min-width: 100%;
+}
+
+.nav-btn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border: none;
+  background: transparent;
+  color: rgba(245,233,192,0.45);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: color 0.18s, border-color 0.18s;
+  white-space: nowrap;
+  line-height: 1.3;
+}
+
+.nav-btn:hover {
+  color: var(--gold-light);
+}
+
+.nav-btn.active,
+.nav-btn:focus-visible {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+.nav-btn .nav-date { font-size: 13px; font-weight: 900; }
+.nav-btn .nav-area { font-size: 10px; opacity: 0.7; }
+
+/* ============================================================
+   TICKET INFO BANNER
+   ============================================================ */
+.ticket-banner {
+  background: var(--gold-bg);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 24px;
+}
+
+.ticket-banner-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  align-items: flex-start;
+}
+
+.ticket-banner-section {
+  flex: 1;
+  min-width: 220px;
+}
+
+.ticket-banner-heading {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+
+.ticket-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.ticket-table th,
+.ticket-table td {
+  padding: 4px 8px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+.ticket-table th {
+  font-weight: 700;
+  color: var(--black-soft);
+  width: 140px;
+  font-size: 11px;
+}
+
+.ticket-table td {
+  color: var(--gray);
+}
+
+/* ============================================================
+   MAIN
+   ============================================================ */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px 16px 80px;
+}
+
+/* ============================================================
+   PHASE LABEL
+   ============================================================ */
+.phase-label {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 32px 0 20px;
+}
+
+.phase-label-text {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  color: var(--gold);
+  background: var(--black);
+  padding: 4px 12px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.phase-label-line {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* ============================================================
+   DATE SECTION
+   ============================================================ */
+.date-section {
+  margin-bottom: 36px;
+  scroll-margin-top: 60px;
+}
+
+.date-section-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--gold-light);
+}
+
+.date-pill {
+  background: var(--black);
+  color: var(--gold-light);
+  font-family: 'Noto Serif JP', serif;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 6px 16px;
+  border-radius: 3px;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.date-pill-wd {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.6;
+  margin-left: 2px;
+}
+
+.date-area {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.15em;
+}
+
+/* ============================================================
+   THEATER GRID
+   ============================================================ */
+.theater-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+/* ============================================================
+   THEATER CARD
+   ============================================================ */
+.theater-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.theater-card:hover {
+  border-color: var(--gold);
+  box-shadow: 0 4px 20px rgba(184,134,11,0.12);
+}
+
+.card-region {
+  background: var(--tag-bg);
+  padding: 4px 12px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--tag-text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-date-mini {
+  font-size: 10px;
+  color: var(--gray);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.card-body {
+  padding: 14px 14px 0;
+}
+
+.card-name {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+  line-height: 1.4;
+  margin-bottom: 10px;
+  letter-spacing: 0.04em;
+}
+
+/* 上映時間 */
+.card-times {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.card-time-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-time-clock {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--black-soft);
+  min-width: 48px;
+}
+
+.card-time-tag {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 100px;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.tag-after {
+  background: #FFF0D0;
+  color: #8A5800;
+  border: 1px solid #E8C870;
+}
+
+.tag-before {
+  background: #E8F0FF;
+  color: #1A3A8A;
+  border: 1px solid #A0B8E8;
+}
+
+.card-time-pending {
+  font-size: 11px;
+  color: var(--gray);
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+/* チケット情報 */
+.card-ticket {
+  padding: 8px 0 0;
+  border-top: 1px solid var(--gold-light);
+  margin-bottom: 0;
+}
+
+.card-ticket-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.card-ticket-icon {
+  font-size: 11px;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.card-ticket-text {
+  font-size: 11px;
+  color: var(--gray);
+  line-height: 1.5;
+}
+
+.card-ticket-date {
+  font-weight: 700;
+  color: var(--black-soft);
+}
+
+/* フッターリンク */
+.card-footer {
+  padding: 10px 14px 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--black);
+  color: var(--gold-light);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 3px;
+  text-decoration: none;
+  letter-spacing: 0.08em;
+  transition: background 0.18s;
+}
+
+.card-link:hover {
+  background: var(--black-soft);
+}
+
+.card-link svg {
+  width: 11px;
+  height: 11px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   OFFICIAL NOTE
+   ============================================================ */
+.official-note {
+  margin: 40px 0 0;
+  padding: 20px 24px;
+  background: var(--gold-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.official-note-text {
+  font-size: 12px;
+  color: var(--gray);
+  line-height: 1.8;
+}
+
+.official-note-text strong {
+  color: var(--black-soft);
+}
+
+.official-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--black);
+  color: var(--gold-light);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 22px;
+  border-radius: 3px;
+  text-decoration: none;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  transition: background 0.18s;
+}
+
+.official-btn:hover { background: var(--black-soft); }
+
+.official-btn svg {
+  width: 13px;
+  height: 13px;
+  fill: currentColor;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer {
+  background: var(--black);
+  color: rgba(245,233,192,0.35);
+  text-align: center;
+  padding: 32px 24px;
+  font-size: 11px;
+  line-height: 2;
+  letter-spacing: 0.08em;
+}
+
+footer .ft-title {
+  color: rgba(245,233,192,0.6);
+  font-family: 'Noto Serif JP', serif;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 600px) {
+  .site-header { padding: 32px 16px 40px; }
+  main { padding: 20px 12px 60px; }
+  .theater-grid { grid-template-columns: 1fr; }
+  .ticket-banner-inner { flex-direction: column; }
+}
+
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="site-header">
+  <div class="header-eyebrow">NATIONWIDE STAGE GREETING TOUR 2026</div>
+  <div class="header-movie">映画 えんとつ町のプペル〜約束の時計台〜</div>
+  <h1 class="header-title">ネタバレ必至！<br>公開御礼 全国舞台挨拶ツアー</h1>
+  <div class="header-sub">実施決定！</div>
+  <div class="header-performer">
+    <div class="header-performer-label">登壇者</div>
+    <div class="header-performer-name">西野亮廣</div>
+    <div class="header-performer-role">製作総指揮・原作・脚本</div>
+  </div>
+  <div class="header-note">
+    ここでしか聞けない制作秘話や裏話などネタバレ満載！<br>
+    チケットは各劇場 HP・劇場窓口にて
+  </div>
+</header>
+
+<!-- ============================================================
+     DATE NAV
+     ============================================================ -->
+<nav class="date-nav" aria-label="日付ナビゲーション">
+  <div class="date-nav-inner">
+    <button class="nav-btn" onclick="scrollTo('d330')"><span class="nav-date">3/30</span><span class="nav-area">広島</span></button>
+    <button class="nav-btn" onclick="scrollTo('d401')"><span class="nav-date">4/1</span><span class="nav-area">北海道</span></button>
+    <button class="nav-btn" onclick="scrollTo('d402')"><span class="nav-date">4/2</span><span class="nav-area">仙台</span></button>
+    <button class="nav-btn" onclick="scrollTo('d403')"><span class="nav-date">4/3</span><span class="nav-area">首都圏</span></button>
+    <button class="nav-btn" onclick="scrollTo('d406')"><span class="nav-date">4/6</span><span class="nav-area">東京</span></button>
+    <button class="nav-btn" onclick="scrollTo('d408')"><span class="nav-date">4/8</span><span class="nav-area">大阪・兵庫</span></button>
+    <button class="nav-btn" onclick="scrollTo('d409')"><span class="nav-date">4/9</span><span class="nav-area">広島・伊丹</span></button>
+    <button class="nav-btn" onclick="scrollTo('d410')"><span class="nav-date">4/10</span><span class="nav-area">大阪・京都</span></button>
+    <button class="nav-btn" onclick="scrollTo('d415')"><span class="nav-date">4/15</span><span class="nav-area">愛知</span></button>
+    <button class="nav-btn" onclick="scrollTo('d417')"><span class="nav-date">4/17</span><span class="nav-area">静岡</span></button>
+    <button class="nav-btn" onclick="scrollTo('d420')"><span class="nav-date">4/20</span><span class="nav-area">神奈川</span></button>
+    <button class="nav-btn" onclick="scrollTo('d422')"><span class="nav-date">4/22</span><span class="nav-area">東京</span></button>
+    <button class="nav-btn" onclick="scrollTo('d424')"><span class="nav-date">4/24</span><span class="nav-area">千葉</span></button>
+    <button class="nav-btn" onclick="scrollTo('d430')"><span class="nav-date">4/30</span><span class="nav-area">福岡</span></button>
+  </div>
+</nav>
+
+<!-- ============================================================
+     TICKET BANNER
+     ============================================================ -->
+<div class="ticket-banner">
+  <div class="ticket-banner-inner">
+    <div class="ticket-banner-section">
+      <div class="ticket-banner-heading">チケット発売スケジュール（確認済み）</div>
+      <table class="ticket-table">
+        <tr>
+          <th>TOHOシネマズ緑井 (3/30)</th>
+          <td>3月26日(木) 0:00〜 ネット<br>3月26日(木) 開館時〜 窓口</td>
+        </tr>
+        <tr>
+          <th>すすきの / MOVIX川口 他</th>
+          <td>3月27日(金) 0:00〜 ネット<br>3月27日(金) 開館時〜 窓口</td>
+        </tr>
+        <tr>
+          <th>仙台 / イオン名取 (4/2)</th>
+          <td>3月30日(月) 0:00〜 ネット</td>
+        </tr>
+        <tr>
+          <th>渋谷HUMAX / 大井町 (4/6)</th>
+          <td>4月2日(木) 0:00〜 ネット<br>4月2日(木) 開館時〜 窓口</td>
+        </tr>
+        <tr>
+          <th>4/10〜 各劇場</th>
+          <td>詳細は各劇場HPにて順次発表</td>
+        </tr>
+      </table>
+    </div>
+    <div class="ticket-banner-section">
+      <div class="ticket-banner-heading">ご注意</div>
+      <ul style="font-size:12px;color:#6A5A3A;padding-left:1.2em;line-height:2;">
+        <li>登壇者は都合により変更になる場合があります</li>
+        <li>上映時間・回次の詳細は各劇場HPをご確認ください</li>
+        <li>「ほか」記載の劇場は複数館で実施予定</li>
+        <li>チケットは劇場HP・劇場窓口にて販売</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     MAIN CONTENT
+     ============================================================ -->
+<main>
+
+  <!-- PHASE 1 label -->
+  <div class="phase-label">
+    <span class="phase-label-text">PHASE 1 — 3月30日〜4月9日</span>
+    <span class="phase-label-line"></span>
+  </div>
+
+  <!-- ======================== 3/30 ======================== -->
+  <section class="date-section" id="d330">
+    <div class="date-section-header">
+      <span class="date-pill">3月30日<span class="date-pill-wd">月</span></span>
+      <span class="date-area">広島</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>HIROSHIMA</span><span class="card-date-mini">3月30日（月）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 緑井</div>
+          <div class="card-times">
+            <div class="card-time-row">
+              <span class="card-time-clock">16:00</span>
+              <span class="card-time-tag tag-after">上映後</span>
+            </div>
+          </div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text"><span class="card-ticket-date">3/26(木) 0:00〜</span>（ネット） / 開館時〜（窓口）</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/event/poupelle2026-tour0330-0409.html" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== 4/1 ======================== -->
+  <section class="date-section" id="d401">
+    <div class="date-section-header">
+      <span class="date-pill">4月1日<span class="date-pill-wd">水</span></span>
+      <span class="date-area">北海道</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>HOKKAIDO</span><span class="card-date-mini">4月1日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ すすきの</div>
+          <div class="card-times">
+            <div class="card-time-row">
+              <span class="card-time-clock">15:30</span>
+              <span class="card-time-tag tag-after">上映後</span>
+            </div>
+            <div class="card-time-row">
+              <span class="card-time-clock">18:30</span>
+              <span class="card-time-tag tag-before">上映前</span>
+            </div>
+          </div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text"><span class="card-ticket-date">3/27(金) 0:00〜</span>（ネット） / 開館時〜（窓口）</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/event/poupelle2026-tour0330-0409.html" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>HOKKAIDO</span><span class="card-date-mini">4月1日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">札幌シネマフロンティア</div>
+          <div class="card-times">
+            <div class="card-time-row">
+              <span class="card-time-clock">18:00</span>
+              <span class="card-time-tag tag-after">上映後</span>
+            </div>
+          </div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて確認</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.cinema-frontier.co.jp/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== 4/2 ======================== -->
+  <section class="date-section" id="d402">
+    <div class="date-section-header">
+      <span class="date-pill">4月2日<span class="date-pill-wd">木</span></span>
+      <span class="date-area">宮城</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>MIYAGI</span><span class="card-date-mini">4月2日（木）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 仙台</div>
+          <div class="card-times">
+            <div class="card-time-row">
+              <span class="card-time-clock">17:00</span>
+              <span class="card-time-tag tag-after">上映後</span>
+            </div>
+            <div class="card-time-row">
+              <span class="card-time-clock">20:00</span>
+              <span class="card-time-tag tag-before">上映前</span>
+            </div>
+          </div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text"><span class="card-ticket-date">3/30(月) 0:00〜</span>（ネット）</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/event/poupelle2026-tour0330-0409.html" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>MIYAGI</span><span class="card-date-mini">4月2日（木）</span></div>
+        <div class="card-body">
+          <div class="card-name">イオンシネマ 名取</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text"><span class="card-ticket-date">3/30(月) 0:00〜</span>（ネット）</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://theater.aeoncinema.com/theaters/natori/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== 4/3 ======================== -->
+  <section class="date-section" id="d403">
+    <div class="date-section-header">
+      <span class="date-pill">4月3日<span class="date-pill-wd">金</span></span>
+      <span class="date-area">首都圏（埼玉）</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>SAITAMA</span><span class="card-date-mini">4月3日（金）</span></div>
+        <div class="card-body">
+          <div class="card-name">MOVIX川口</div>
+          <div class="card-times">
+            <div class="card-time-row">
+              <span class="card-time-clock">16:30</span>
+              <span class="card-time-tag tag-after">上映後</span>
+            </div>
+            <div class="card-time-row">
+              <span class="card-time-clock">19:30</span>
+              <span class="card-time-tag tag-before">上映前</span>
+            </div>
+          </div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text"><span class="card-ticket-date">3/27(金) 0:00〜</span>（ネット） / 開館時〜（窓口）</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.smt-cinema.com/site/kawaguchi/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>SAITAMA</span><span class="card-date-mini">4月3日（金）</span></div>
+        <div class="card-body">
+          <div class="card-name">MOVIXさいたま</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて確認</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.smt-cinema.com/site/saitama/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>SAITAMA</span><span class="card-date-mini">4月3日（金）</span></div>
+        <div class="card-body">
+          <div class="card-name">ユナイテッド・シネマ 浦和</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて確認</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.unitedcinemas.jp/urawa/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== 4/6 ======================== -->
+  <section class="date-section" id="d406">
+    <div class="date-section-header">
+      <span class="date-pill">4月6日<span class="date-pill-wd">月</span></span>
+      <span class="date-area">東京</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>TOKYO</span><span class="card-date-mini">4月6日（月）</span></div>
+        <div class="card-body">
+          <div class="card-name">渋谷HUMAXシネマ</div>
+          <div class="card-times">
+            <div class="card-time-row">
+              <span class="card-time-clock">16:30</span>
+              <span class="card-time-tag tag-after">上映後</span>
+            </div>
+            <div class="card-time-row">
+              <span class="card-time-clock">19:30</span>
+              <span class="card-time-tag tag-before">上映前</span>
+            </div>
+          </div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text"><span class="card-ticket-date">4/2(木) 0:00〜</span>（ネット） / 開館時〜（窓口）</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.humax-cinema.co.jp/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>TOKYO</span><span class="card-date-mini">4月6日（月）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 大井町</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text"><span class="card-ticket-date">4/2(木) 0:00〜</span>（ネット）</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/event/poupelle2026-tour0330-0409.html" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== 4/8 ======================== -->
+  <section class="date-section" id="d408">
+    <div class="date-section-header">
+      <span class="date-pill">4月8日<span class="date-pill-wd">水</span></span>
+      <span class="date-area">大阪・兵庫</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>OSAKA</span><span class="card-date-mini">4月8日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 梅田</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて確認</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/event/poupelle2026-tour0330-0409.html" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>OSAKA</span><span class="card-date-mini">4月8日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">大阪ステーションシティシネマ</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて確認</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.osakastationcity-cinema.com/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>OSAKA</span><span class="card-date-mini">4月8日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ なんば</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて確認</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/theater/032/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>OSAKA</span><span class="card-date-mini">4月8日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">あべのアポロシネマ</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて確認</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.apollo-cinema.jp/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>HYOGO</span><span class="card-date-mini">4月8日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 西宮OS</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて確認</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/event/poupelle2026-tour0330-0409.html" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>HYOGO</span><span class="card-date-mini">4月8日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">OSシネマズ ミント神戸</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて確認</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.os-cinema.jp/mint-kobe/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== 4/9 ======================== -->
+  <section class="date-section" id="d409">
+    <div class="date-section-header">
+      <span class="date-pill">4月9日<span class="date-pill-wd">木</span></span>
+      <span class="date-area">広島・大阪</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>HIROSHIMA</span><span class="card-date-mini">4月9日（木）</span></div>
+        <div class="card-body">
+          <div class="card-name">広島バルト11</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて確認</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://tjoy.jp/hiroshima_wald11" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>HIROSHIMA</span><span class="card-date-mini">4月9日（木）</span></div>
+        <div class="card-body">
+          <div class="card-name">MOVIX 広島駅</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて確認</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.smt-cinema.com/site/hiroshimaeki/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>OSAKA</span><span class="card-date-mini">4月9日（木）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 伊丹</div>
+          <div class="card-times">
+            <div class="card-time-row">
+              <span class="card-time-clock">18:00</span>
+              <span class="card-time-tag tag-after">上映後</span>
+            </div>
+          </div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて確認</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/event/poupelle2026-tour0330-0409.html" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PHASE 2 label -->
+  <div class="phase-label" style="margin-top:48px;">
+    <span class="phase-label-text">PHASE 2 — 4月10日〜4月30日</span>
+    <span class="phase-label-line"></span>
+  </div>
+
+  <!-- ======================== 4/10 ======================== -->
+  <section class="date-section" id="d410">
+    <div class="date-section-header">
+      <span class="date-pill">4月10日<span class="date-pill-wd">金</span></span>
+      <span class="date-area">大阪・京都</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>OSAKA</span><span class="card-date-mini">4月10日（金）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ くずはモール</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/theater/072/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>KYOTO</span><span class="card-date-mini">4月10日（金）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 二条</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/theater/023/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>KYOTO</span><span class="card-date-mini">4月10日（金）</span></div>
+        <div class="card-body">
+          <div class="card-name">MOVIX 京都</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.smt-cinema.com/site/kyoto/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>KYOTO</span><span class="card-date-mini">4月10日（金）</span></div>
+        <div class="card-body">
+          <div class="card-name">T・ジョイ京都</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://tjoy.jp/t-joy_kyoto" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== 4/15 ======================== -->
+  <section class="date-section" id="d415">
+    <div class="date-section-header">
+      <span class="date-pill">4月15日<span class="date-pill-wd">水</span></span>
+      <span class="date-area">愛知</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>AICHI</span><span class="card-date-mini">4月15日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">ミッドランドスクエアシネマ</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.midland-sq-cinema.jp/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>AICHI</span><span class="card-date-mini">4月15日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 赤池</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/theater/079/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>AICHI</span><span class="card-date-mini">4月15日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">109シネマズ 名古屋</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://109cinemas.net/nagoya/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== 4/17 ======================== -->
+  <section class="date-section" id="d417">
+    <div class="date-section-header">
+      <span class="date-pill">4月17日<span class="date-pill-wd">金</span></span>
+      <span class="date-area">静岡</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>SHIZUOKA</span><span class="card-date-mini">4月17日（金）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 浜松</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/theater/004/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>SHIZUOKA</span><span class="card-date-mini">4月17日（金）</span></div>
+        <div class="card-body">
+          <div class="card-name">シネシティ ザート</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.cinecity.co.jp/zato/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== 4/20 ======================== -->
+  <section class="date-section" id="d420">
+    <div class="date-section-header">
+      <span class="date-pill">4月20日<span class="date-pill-wd">月</span></span>
+      <span class="date-area">神奈川</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>KANAGAWA</span><span class="card-date-mini">4月20日（月）</span></div>
+        <div class="card-body">
+          <div class="card-name">横浜ブルク13</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://tjoy.jp/yokohama_burg13/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>KANAGAWA</span><span class="card-date-mini">4月20日（月）</span></div>
+        <div class="card-body">
+          <div class="card-name">T・ジョイ横浜</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://tjoy.jp/t-joy_yokohama" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>KANAGAWA</span><span class="card-date-mini">4月20日（月）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 川崎</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/event/poupelle2026-tour0410-0430.html" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== 4/22 ======================== -->
+  <section class="date-section" id="d422">
+    <div class="date-section-header">
+      <span class="date-pill">4月22日<span class="date-pill-wd">水</span></span>
+      <span class="date-area">東京</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>TOKYO</span><span class="card-date-mini">4月22日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 錦糸町</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/theater/029/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>TOKYO</span><span class="card-date-mini">4月22日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 日本橋</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/theater/073/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>TOKYO</span><span class="card-date-mini">4月22日（水）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 上野</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/theater/080/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== 4/24 ======================== -->
+  <section class="date-section" id="d424">
+    <div class="date-section-header">
+      <span class="date-pill">4月24日<span class="date-pill-wd">金</span></span>
+      <span class="date-area">千葉</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>CHIBA</span><span class="card-date-mini">4月24日（金）</span></div>
+        <div class="card-body">
+          <div class="card-name">イオンシネマ 幕張新都心</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://theater.aeoncinema.com/theaters/makuhari-shintoshin/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>CHIBA</span><span class="card-date-mini">4月24日（金）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ ららぽーと船橋</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/theater/018/" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>CHIBA</span><span class="card-date-mini">4月24日（金）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ 市川コルトンプラザ</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/event/poupelle2026-tour0410-0430.html" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================== 4/30 ======================== -->
+  <section class="date-section" id="d430">
+    <div class="date-section-header">
+      <span class="date-pill">4月30日<span class="date-pill-wd">木</span></span>
+      <span class="date-area">福岡</span>
+    </div>
+    <div class="theater-grid">
+
+      <div class="theater-card">
+        <div class="card-region"><span>FUKUOKA</span><span class="card-date-mini">4月30日（木）</span></div>
+        <div class="card-body">
+          <div class="card-name">T・ジョイ博多</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://tjoy.jp/t-joy_hakata" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>FUKUOKA</span><span class="card-date-mini">4月30日（木）</span></div>
+        <div class="card-body">
+          <div class="card-name">ユナイテッド・シネマ キャナルシティ13</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.unitedcinemas.jp/canalcity/index.html" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="theater-card">
+        <div class="card-region"><span>FUKUOKA</span><span class="card-date-mini">4月30日（木）</span></div>
+        <div class="card-body">
+          <div class="card-name">TOHOシネマズ ららぽーと福岡</div>
+          <div class="card-time-pending">上映時間：詳細は劇場HPにて</div>
+          <div class="card-ticket">
+            <div class="card-ticket-row">
+              <span class="card-ticket-icon">🎫</span>
+              <span class="card-ticket-text">詳細は劇場HPにて順次発表</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.tohotheater.jp/event/poupelle2026-tour0410-0430.html" target="_blank" rel="noopener" class="card-link">
+            劇場HP <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 公式リンク -->
+  <div class="official-note">
+    <div class="official-note-text">
+      <strong>最新情報は公式サイトをご確認ください。</strong><br>
+      上映時間・詳細スケジュールは随時更新されます。チケットは各劇場HPまたは劇場窓口にて販売。
+    </div>
+    <a href="https://poupelle.com/news/?p=1732" target="_blank" rel="noopener" class="official-btn">
+      公式ニュースページ
+      <svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.3 9.3-1.41-1.42L17.58 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>
+    </a>
+  </div>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+  <div class="ft-title">映画 えんとつ町のプペル〜約束の時計台〜</div>
+  <div>ネタバレ必至！公開御礼 全国舞台挨拶ツアー</div>
+  <div>登壇：西野亮廣（製作総指揮・原作・脚本）</div>
+  <div style="margin-top:12px;font-size:10px;opacity:0.5;">
+    本ページは公式情報をもとに制作した非公式まとめページです。<br>
+    最新情報・チケット詳細は各劇場公式サイトおよび映画公式サイトをご確認ください。
+  </div>
+</footer>
+
+<!-- ============================================================
+     JS — scroll & nav highlight
+     ============================================================ -->
+<script>
+function scrollTo(id) {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// Nav highlight on scroll
+const sections = document.querySelectorAll('.date-section[id]');
+const navBtns  = document.querySelectorAll('.nav-btn');
+
+const sectionIds = Array.from(sections).map(s => s.id);
+const idToBtnIdx = {};
+navBtns.forEach((btn, i) => {
+  const target = btn.getAttribute('onclick').replace(/scrollTo\('|'\)/g, '');
+  idToBtnIdx[target] = i;
+});
+
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      navBtns.forEach(b => b.classList.remove('active'));
+      const idx = idToBtnIdx[e.target.id];
+      if (idx !== undefined) navBtns[idx].classList.add('active');
+    }
+  });
+}, { rootMargin: '-30% 0px -60% 0px' });
+
+sections.forEach(s => io.observe(s));
+</script>
+
+</body>
+</html>
